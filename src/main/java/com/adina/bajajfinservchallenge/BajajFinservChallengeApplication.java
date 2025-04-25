@@ -9,5 +9,4 @@ public class BajajFinservChallengeApplication {
     public static void main(String[] args) {
         SpringApplication.run(BajajFinservChallengeApplication.class, args);
     }
-
 }

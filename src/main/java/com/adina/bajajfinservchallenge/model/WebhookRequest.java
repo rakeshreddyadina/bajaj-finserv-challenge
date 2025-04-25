@@ -1,4 +1,14 @@
 package com.adina.bajajfinservchallenge.model;
 
-public class WeebhookRequest {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class WebhookRequest {
+    private String name;
+    private String regNo;
+    private String email;
 }
